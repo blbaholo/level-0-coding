@@ -1,4 +1,4 @@
-number=121
+number=75
 
 def number_to_time():
     hours=number//60
