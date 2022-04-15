@@ -1,17 +1,11 @@
-a=1
-b=2
-c=3
-
-def max_number(a,b,c):
+def maximum(a,b,c):
 
     if (a>b and a>c):
-            max_number=a
-
+        max_num=a
     if (b>a and b>c):
-            max_number=b
-
+        max_num=b
     if (c>a and c>b):
-            max_number=c
-    return max_number
+        max_num=c
+    return max_num
 
-print(max_number(a,b,c))
+print(maximum(1,2,3))
