@@ -1,5 +1,4 @@
 word="Umuzi"
-
 def split(word):
     return list(word)
 split(word)
