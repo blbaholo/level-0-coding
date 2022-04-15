@@ -1,6 +1,4 @@
-number=75
-
-def number_to_time():
+def number_to_time(number):
     hours=number//60
     minutes=number%60
     if 2<=number<=59:
@@ -14,4 +12,4 @@ def number_to_time():
     else:
         print(str(hours) + " hours, " + str(minutes) + " minutes ")
 
-number_to_time()
+number_to_time(75)
