@@ -1,11 +1,6 @@
-def split(word):
-    return list(word)
-split("Umuzi")
-
-List_of_letters=[]
-
 def vowels(word):
-
+    word.split(word)
+    List_of_letters=[]
     for i in word:
         if (i=="u" or i=="U"):
             List_of_letters.append("u")
@@ -29,6 +24,3 @@ def vowels(word):
     print(','.join(List_of_letters))
 
 vowels("Umuzi")
-
-
-
