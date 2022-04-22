@@ -21,6 +21,6 @@ def vowels(word):
         if (i=="a" or i=="A"):
             List_of_letters.append("a")
             break
-    print(','.join(List_of_letters))
+    print("Vowels: " + ', '.join(List_of_letters))
 
 vowels("Umuzi")
